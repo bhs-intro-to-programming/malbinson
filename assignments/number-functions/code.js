@@ -3,5 +3,5 @@ function add(a,b){
 }
 
 function mod(a,b) {
-  return a%b;
+  return ((a % b) + b) % b;
 }
